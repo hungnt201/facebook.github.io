@@ -1,8 +1,9 @@
-.body{
+.body {
     /* float: right; */
     background-color: #18191A;
 }
-.content-right{
+
+.content-right {
     max-width: 280px;
     min-height: 625px;
     max-height: 625px;
@@ -16,29 +17,35 @@
     right: 0;
     left: 55;
 }
+
 .content-right::-webkit-scrollbar-thumb {
     background-color: #3A3B3C;
     border-radius: 5px;
 }
-.content-right::-webkit-scrollbar{
-    width:10px;
+
+.content-right::-webkit-scrollbar {
+    width: 10px;
 }
-.add-friend{
+
+.add-friend {
     background-color: #242526;
     width: 265px;
     height: 200px;
     border-radius: 10px;
     margin-top: 15px;
 }
-.header-add-friend{
+
+.header-add-friend {
     display: flex;
 }
-.icon-header-add-friend i{
+
+.icon-header-add-friend i {
     color: #1A82F4;
     margin-top: 15px;
     margin-left: 15px;
 }
-.text-header-add-friend p{
+
+.text-header-add-friend p {
     color: #E4E6EB;
     margin-top: 12px;
     margin-left: 7px;
@@ -46,7 +53,8 @@
     font-size: .875rem;
     font-weight: 500;
 }
-.menu-header-add-friend{
+
+.menu-header-add-friend {
     width: 30px;
     height: 30px;
     font-size: 1rem;
@@ -58,57 +66,67 @@
     border-radius: 100%;
     margin-left: 85px;
 }
-.menu-header-add-friend:hover{
+
+.menu-header-add-friend:hover {
     background-color: #3A3B3C;
     cursor: pointer;
 }
-.content-add-friend{
+
+.content-add-friend {
     width: 240px;
     height: 135px;
     margin-left: 15px;
     border-radius: 10px;
     display: flex;
 }
-.content-add-friend:hover{
+
+.content-add-friend:hover {
     background-color: #3e4141;
     cursor: pointer;
 }
-.avt-add-friend{
+
+.avt-add-friend {
     width: 60px;
     height: 135px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.avt-add-friend img{
+
+.avt-add-friend img {
     width: 50px;
     height: 50px;
     border-radius: 100%;
 }
-.name-add-1{
+
+.name-add-1 {
     width: 170px;
     height: 30px;
     display: flex;
     align-items: center;
 }
-.name-1{
+
+.name-1 {
     font-family: inherit;
     font-size: .875rem;
     font-weight: 600;
     color: #E4E6EB;
     margin-left: 10px;
 }
-.time-add{
+
+.time-add {
     margin-left: 45px;
     font-size: .775rem;
     color: #B0B3B8;
 }
-.name-add-friend{
+
+.name-add-friend {
     display: flex;
     flex-direction: column;
     width: 170px;
 }
-.acp{
+
+.acp {
     background-color: #2D88FF;
     width: 150px;
     height: 35px;
@@ -122,10 +140,12 @@
     font-weight: 600;
     color: #E4E6EB;
 }
-.acp:hover{
+
+.acp:hover {
     cursor: pointer;
 }
-.del{
+
+.del {
     background-color: #464e4e;
     width: 150px;
     height: 35px;
@@ -139,17 +159,20 @@
     font-weight: 600;
     color: #E4E6EB;
 }
-.del:hover{
+
+.del:hover {
     background-color: #4b4d4e;
     cursor: pointer;
 }
-.header-right{
+
+.header-right {
     display: flex;
     height: 25px;
     margin-top: 10px;
     list-style: none;
 }
-.h-pp{
+
+.h-pp {
     width: 100px;
     height: 30px;
     color: #B0B3B8;
@@ -162,7 +185,8 @@
     justify-content: center;
     padding-bottom: 3px;
 }
-.video-call{
+
+.video-call {
     width: 30px;
     height: 30px;
     font-size: 1rem;
@@ -173,11 +197,13 @@
     border-radius: 100%;
     margin-left: 50px;
 }
-.video-call:hover{
+
+.video-call:hover {
     background-color: #3A3B3C;
     cursor: pointer;
 }
-.search-right{
+
+.search-right {
     width: 30px;
     height: 30px;
     font-size: 1rem;
@@ -188,11 +214,13 @@
     border-radius: 100%;
     margin-left: 10px;
 }
-.search-right:hover{
+
+.search-right:hover {
     background-color: #3A3B3C;
     cursor: pointer;
 }
-.menu-right{
+
+.menu-right {
     width: 30px;
     height: 30px;
     font-size: 1rem;
@@ -203,75 +231,88 @@
     border-radius: 100%;
     margin-left: 10px;
 }
-.menu-right:hover{
+
+.menu-right:hover {
     background-color: #3A3B3C;
     cursor: pointer;
 }
-li{
+
+li {
     list-style: none;
 }
-.people-1{
+
+.people-1 {
     display: flex;
     height: 40px;
     border-radius: 7px;
     margin-top: 7px;
 }
-.people-1:hover{
+
+.people-1:hover {
     cursor: pointer;
     background-color: #3A3B3C;
 }
-.avt-people-contact{
+
+.avt-people-contact {
     width: 27px;
     height: 27px;
     border-radius: 100%;
     margin-top: 6.5px;
     margin-left: 5px;
 }
-.avt-people-contact img{
+
+.avt-people-contact img {
     width: 27px;
     border-radius: 100%;
     height: 27px;
 }
-.li-people-contact-1{
+
+.li-people-contact-1 {
     display: flex;
-    margin-top: 6.5px;  
+    margin-top: 6.5px;
     width: 200px;
 }
-.name-people-contact-1{
+
+.name-people-contact-1 {
     color: #E4E6EB;
     font-family: inherit;
     font-size: .975rem;
     font-weight: 500;
     margin-top: -7px;
 }
-.li-people-contact-2{
+
+.li-people-contact-2 {
     display: flex;
-    margin-top: 6.5px;  
+    margin-top: 6.5px;
     width: 200px;
 }
-.name-people-contact-2{
+
+.name-people-contact-2 {
     color: #E4E6EB;
     font-family: inherit;
     font-size: .975rem;
     font-weight: 500;
     margin-top: -7px;
-    
 }
-.people-2{
+
+.people-2 {
     display: flex;
     height: 40px;
     border-radius: 7px;
     margin-top: 7px;
 }
-.people-2:hover{
+
+.people-2:hover {
     cursor: pointer;
     background-color: #3A3B3C;
 }
-.group-contact{
+
+.group-contact {
     height: 25px;
     margin-top: 10px;
 }
-.h1-gr-contact{
+
+.h1-gr-contact {
     width: 100px;
     height: 30px;
     color: #B0B3B8;
@@ -279,12 +320,14 @@ li{
     font-family: inherit;
     font-size: 1rem;
     font-weight: 600;
-    padding-bottom: 3px;  
+    padding-bottom: 3px;
 }
-.add-group{
+
+.add-group {
     margin-bottom: 5px;
 }
-.add-gr-icon{
+
+.add-gr-icon {
     color: #E4E6EB;
     display: flex;
     align-items: center;
@@ -297,7 +340,8 @@ li{
     margin-left: 5px;
     margin-top: 5px;
 }
-.new-mess{
+
+.new-mess {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -313,7 +357,10 @@ li{
     color: #E4E6EA;
     font-size: 25px;
 }
+
+
 /* Dropdown Button */
+
 .dropbtn {
     background-color: #18191A;
     border: none;
@@ -323,394 +370,252 @@ li{
     color: #A8ABAF;
     border-radius: 100%;
     margin-left: 10px;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #242526;
     max-width: 250px;
     min-height: 450px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    margin-left: -220px; 
+    margin-left: -220px;
     border-radius: 10px;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
     color: #E4E6EB;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #3A3B3C;}
-  
-  /* Show the dropdown menu on hover */
-  /* .dropdown:hover .dropdown-content {display: block;} */
-  .show {display:block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3A3B3C;}
-  .test{
-      margin-top: -100px;
-  }
-  .flatRoundedCheckbox
-
-{
-
-    width: 50px;
-
-    height: 30px;
-
-    /* margin: 50px; */
-
-    position: relative;
-    margin-top: 1px;
-
 }
 
-.flatRoundedCheckbox div
 
-{
+/* Change color of dropdown links on hover */
 
-    width: 50px;
-
-    height: 30px;
-
-    background: #d3d3d3;
-
-    border-radius: 50px;
-
-    position: relative;
-
-    top:-23px;
-    left: -5px;
-
+.dropdown-content a:hover {
+    background-color: #3A3B3C;
 }
-.flatRoundedCheckbox label
 
-{
 
+/* Show the dropdown menu on hover */
+
+
+/* .dropdown:hover .dropdown-content {display: block;} */
+
+.show {
     display: block;
-
-    width: 20px;
-
-    height: 20px;
-
-    border-radius: 50px;
-
-
-
-    -webkit-transition: all .5s ease;
-
-    -moz-transition: all .5s ease;
-
-    -o-transition: all .5s ease;
-
-    -ms-transition: all .5s ease;
-
-    transition: all .5s ease;
-
-    cursor: pointer;
-
-    position: absolute;
-
-    top: 5px;
-
-    z-index: 1;
-
-    left: 1px;
-
-    background: #FFF;
-
-}
-.flatRoundedCheckbox input[type=checkbox]:checked ~ div
-
-{
-
-    background: #2E89FF;
-
 }
 
 
+/* Change the background color of the dropdown button when the dropdown content is shown */
 
-.flatRoundedCheckbox input[type=checkbox]:checked ~ label {
-
-    left: 20px;
-
+.dropdown:hover .dropbtn {
+    background-color: #3A3B3C;
 }
-.flatRoundedCheckbox1
 
-{
+.test {
+    margin-top: -100px;
+}
 
+.flatRoundedCheckbox {
     width: 50px;
-
     height: 30px;
-
     /* margin: 50px; */
-
     position: relative;
     margin-top: 1px;
-
 }
 
-.flatRoundedCheckbox1 div
+.flatRoundedCheckbox div {
+    width: 50px;
+    height: 30px;
+    background: #d3d3d3;
+    border-radius: 50px;
+    position: relative;
+    top: -23px;
+    left: -5px;
+}
 
-{
+.flatRoundedCheckbox label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+    left: 1px;
+    background: #FFF;
+}
 
+.flatRoundedCheckbox input[type=checkbox]:checked~div {
+    background: #2E89FF;
+}
+
+.flatRoundedCheckbox input[type=checkbox]:checked~label {
+    left: 20px;
+}
+
+.flatRoundedCheckbox1 {
+    width: 50px;
+    height: 30px;
+    /* margin: 50px; */
+    position: relative;
+    margin-top: 1px;
+}
+
+.flatRoundedCheckbox1 div {
     width: 100%;
-
-    height:100%;
-
+    height: 100%;
     background: #d3d3d3;
-
     border-radius: 50px;
-
     position: relative;
-
-    top:-23px;
+    top: -23px;
     left: -5px;
-
 }
-.flatRoundedCheckbox1 label
 
-{
-
+.flatRoundedCheckbox1 label {
     display: block;
-
     width: 20px;
-
     height: 20px;
-
     border-radius: 50px;
-
-
-
     -webkit-transition: all .5s ease;
-
     -moz-transition: all .5s ease;
-
     -o-transition: all .5s ease;
-
     -ms-transition: all .5s ease;
-
     transition: all .5s ease;
-
     cursor: pointer;
-
     position: absolute;
-
     top: 5px;
-
     z-index: 1;
-
     left: 1px;
-
     background: #FFF;
-
 }
-.flatRoundedCheckbox1 input[type=checkbox]:checked ~ div
 
-{
-
+.flatRoundedCheckbox1 input[type=checkbox]:checked~div {
     background: #2E89FF;
-
 }
 
-
-
-.flatRoundedCheckbox1 input[type=checkbox]:checked ~ label {
-
+.flatRoundedCheckbox1 input[type=checkbox]:checked~label {
     left: 20px;
-
 }
-.flatRoundedCheckbox2
 
-{
-
+.flatRoundedCheckbox2 {
     width: 50px;
-
     height: 30px;
-
     /* margin: 50px; */
-
     position: relative;
     margin-top: 1px;
-
 }
 
-.flatRoundedCheckbox2 div
-
-{
-
+.flatRoundedCheckbox2 div {
     width: 100%;
-
-    height:100%;
-
+    height: 100%;
     background: #d3d3d3;
-
     border-radius: 50px;
-
     position: relative;
-
-    top:-23px;
+    top: -23px;
     left: -5px;
-
 }
-.flatRoundedCheckbox2 label
 
-{
-
+.flatRoundedCheckbox2 label {
     display: block;
-
     width: 20px;
-
     height: 20px;
-
     border-radius: 50px;
-
-
-
     -webkit-transition: all .5s ease;
-
     -moz-transition: all .5s ease;
-
     -o-transition: all .5s ease;
-
     -ms-transition: all .5s ease;
-
     transition: all .5s ease;
-
     cursor: pointer;
-
     position: absolute;
-
     top: 5px;
-
     z-index: 1;
-
     left: 1px;
-
     background: #FFF;
-
 }
-.flatRoundedCheckbox2 input[type=checkbox]:checked ~ div
 
-{
-
+.flatRoundedCheckbox2 input[type=checkbox]:checked~div {
     background: #2E89FF;
-
 }
 
-
-
-.flatRoundedCheckbox2 input[type=checkbox]:checked ~ label {
-
+.flatRoundedCheckbox2 input[type=checkbox]:checked~label {
     left: 20px;
-
 }
-.flatRoundedCheckbox3
 
-{
-
+.flatRoundedCheckbox3 {
     width: 50px;
-
     height: 30px;
-
     /* margin: 50px; */
-
     position: relative;
     margin-top: 1px;
-
 }
 
-.flatRoundedCheckbox3 div
-
-{
-
+.flatRoundedCheckbox3 div {
     width: 100%;
-
-    height:100%;
-
+    height: 100%;
     background: #d3d3d3;
-
     border-radius: 50px;
-
     position: relative;
-
-    top:-23px;
+    top: -23px;
     left: -5px;
-
 }
-.flatRoundedCheckbox3 label
 
-{
-
+.flatRoundedCheckbox3 label {
     display: block;
-
     width: 20px;
-
     height: 20px;
-
     border-radius: 50px;
-
-
-
     -webkit-transition: all .5s ease;
-
     -moz-transition: all .5s ease;
-
     -o-transition: all .5s ease;
-
     -ms-transition: all .5s ease;
-
     transition: all .5s ease;
-
     cursor: pointer;
-
     position: absolute;
-
     top: 5px;
-
     z-index: 1;
-
     left: 1px;
-
     background: #FFF;
-
 }
-.flatRoundedCheckbox3 input[type=checkbox]:checked ~ div
 
-{
-
+.flatRoundedCheckbox3 input[type=checkbox]:checked~div {
     background: #2E89FF;
-
 }
 
-
-
-.flatRoundedCheckbox3 input[type=checkbox]:checked ~ label {
-
+.flatRoundedCheckbox3 input[type=checkbox]:checked~label {
     left: 20px;
-
 }
-.phone-sound{
+
+.phone-sound {
     display: flex;
     justify-content: space-around;
     height: 35px;
-    
 }
-.text-phone-sound{
+
+.text-phone-sound {
     color: #E4E6EB;
     font-family: inherit;
     font-size: .875rem;
@@ -719,9 +624,9 @@ li{
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    
 }
-.text-set-chat{
+
+.text-set-chat {
     font-family: inherit;
     font-size: 1rem;
     text-align: left;
@@ -730,32 +635,37 @@ li{
     margin-top: 15px;
     margin-left: 10px;
 }
-.text-set-chat-1{
+
+.text-set-chat-1 {
     font-family: inherit;
     font-size: .75rem;
     word-break: break-word;
     color: #9B9EA3;
     margin-left: 10px;
 }
-.icon-volumn{
+
+.icon-volumn {
     color: #9B9EA3;
     font-size: 20px;
     margin-top: 3px;
     margin-left: 5px;
     margin-right: 3px;
 }
-.end-menu{
+
+.end-menu {
     display: flex;
     height: 35px;
 }
-.icon-end-1{
+
+.icon-end-1 {
     font-size: 20px;
     color: #9B9EA3;
     margin-top: 3px;
     margin-left: 10px;
     /* margin-right: 5px; */
 }
-.text-end-1{
+
+.text-end-1 {
     color: #E4E6EB;
     font-family: inherit;
     margin-left: 10px;
@@ -764,5 +674,4 @@ li{
     width: 160px;
     display: flex;
     align-items: center;
-    
 }
